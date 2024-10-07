@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <nav className="bg-transparent  border-gray-600 border-b-[0.03rem] text-white p-4">
             <div className="container mx-auto flex justify-between items-center">
-                <img src={circlelogo} height={50} width={50} alt="Nav AI Logo" />
+                <img src={circlelogo} height={40} width={40} alt="Nav AI Logo" />
 
                 <ul className="flex gap-8 text-sm">
                     <li>

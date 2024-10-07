@@ -12,8 +12,8 @@ const LandingPage = () => {
             <section className="h-[600px] flex flex-col items-center justify-center" id="home">
                 <header className="text-center mb-6">
                     <div className='flex items-center justify-center gap-2'>
-                        <img src={circlelogo} className="animate-pulse" height={80} width={80} alt="Nav AI Logo" />
-                        <h1 className="text-7xl font-extralight mb-0 cursor-default">Nav AI</h1>
+                        <img src={circlelogo} className="animate-[spin_3s_ease-in-out_infinite]" height={80} width={80} alt="Nav AI Logo" />
+                        <h1 className="text-7xl font-extralight mb-0 cursor-default animate-slidein delay-200">Nav AI</h1>
                     </div>
                     <p className="text-gray-400 mt-2 text-2xl font-thin cursor-default transition ease-in-out delay-150 duration-300 hover:pointer-cursor hover:scale-110">real time task navigation</p>
                 </header>
@@ -33,13 +33,13 @@ const LandingPage = () => {
                 <div className='max-w-3xl bg-black text-left bg-opacity-20 rounded-lg border-gray-600 border-2 p-8'>
                     <h2 className="text-2xl font-semibold mb-4">how does it do it.</h2>
                     <p className="text-md align-baseline text-justify">
-                        <div className='flex flex-row gap-4 mb-2 items-center justify-center'>
-                            <img src={electron} className="filter  grayscale max-h-[70px] max-w-[70px]" />+
-                            <img src={react} className="filter  grayscale max-h-[70px] max-w-[70px]" />+
-                            <img src={openai} className="filter  grayscale max-h-[70px] max-w-[70px]" />+
-                            <img src={google} className="filter grayscale  max-h-[70px] max-w-[70px]" />
-
+                        <div className='flex flex-row gap-4 sm:gap-8 mb-2 items-center justify-center flex-wrap'>
+                            <img src={electron} className="filter grayscale h-[60px] md:h-[90px] w-auto" />+
+                            <img src={react} className="filter grayscale h-[60px] md:h-[90px] w-auto" />+
+                            <img src={openai} className="filter grayscale h-[60px] md:h-[90px] w-auto" />+
+                            <img src={google} className="filter grayscale h-[60px]  md:h-[90px] w-auto" />
                         </div>
+
                         We used Electron.JS to build the app & capture user's screen, React for UI combined with GPT-4 API for AI-driven task guidance and finally Google Vision's API to analyze the user's screen. </p>
                 </div>
 
