@@ -8,7 +8,7 @@ const Navbar = () => {
             <div className="container mx-auto flex justify-between items-center">
                 <img src={circlelogo} height={50} width={50} alt="Nav AI Logo" />
 
-                <ul className="flex gap-8 text-md">
+                <ul className="flex gap-8 text-sm">
                     <li>
                         <Link
                             to="home"
