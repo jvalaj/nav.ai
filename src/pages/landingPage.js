@@ -9,7 +9,7 @@ const LandingPage = () => {
     return (
         <div className=" pb-10 text-white">
             {/* Full-screen Intro Section */}
-            <section className="h-[600px] flex flex-col items-center justify-center">
+            <section className="h-[700px] flex flex-col items-center justify-center" id="home">
                 <header className="text-center mb-6">
                     <div className='flex items-center justify-center gap-2'>
                         <img src={circlelogo} className="animate-pulse" height={100} width={100} alt="Nav AI Logo" />
@@ -20,7 +20,7 @@ const LandingPage = () => {
             </section>
 
             {/* What Nav AI Does Section */}
-            <div className='flex mb-6 flex-col p-2 gap-4 items-center justify-center'>
+            <div className='flex mb-6 flex-col p-2 gap-4 py-28 items-center justify-center' id="about">
 
                 <div className='max-w-3xl bg-black text-left bg-opacity-20 rounded-lg border-gray-600 border-2 p-8'>
                     <h2 className="text-3xl font-semibold mb-4">what it is.</h2>
@@ -46,16 +46,16 @@ const LandingPage = () => {
                 <div className='max-w-3xl bg-black text-left bg-opacity-20 rounded-lg border-gray-600 border-2 p-8'>
                     <h2 className="text-3xl font-semibold mb-4">why we built it.</h2>
                     <p className="text-lg align-baseline text-justify">
-                        As college students with parents who struggle with computers, we saw how difficult software navigation can be. With constant updates and new features, even tech-savvy users find it hard to keep up. Nav AI was built to simplify this, offering step-by-step guidance for anyone to easily navigate software.
+                        We love our parents a little too much and could not stand to see them struggle with using a computer. With constant updates and new apps being launched all the time, users find it hard to keep up. Nav AI  fixes this.
                     </p>
                 </div>
 
 
 
             </div>
-            <div className='mt-16 flex items-center justify-center gap-4'>
-                <a href="https://github.com/your-github-username" className='bg-gray-700 text-white rounded-lg px-4 py-2 hover:bg-gray-600 transition duration-200'>View on GitHub</a>
-                <a href="mailto:your-email@example.com" className='bg-gray-700 text-white rounded-lg px-4 py-2 hover:bg-gray-600 transition duration-200'>Contact Us for a Demo</a>
+            <div className='h-[600px] flex items-center justify-center gap-4 p-2' id="contact">
+                <a href="https://github.com/jvalaj/navai" className='bg-gray-800 text-white rounded-lg px-14 py-10 hover:bg-gray-600 transition duration-200'>View on GitHub</a>
+                <a href="mailto:jvalaj@usf.edu" className='bg-gray-700 text-white rounded-lg px-14 py-10 hover:bg-gray-600 transition duration-200'>Contact Us for a Demo</a>
             </div>
         </div>
     );
